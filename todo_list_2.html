@@ -9,8 +9,8 @@
     <body>
         <div id = "myDIV" class = "header">
             <h2>Make your day colorful!</h2>
-            <input type = "text" id = "myInput" placeholder = "Add a task.">
-            <span onclick = "newElement()" class = "addBtn">Add</span>
+            <input type = "text" id = "myInput" onkeypress="if(event.keyCode==13){Enter();}" placeholder = "Add a task.">
+            <span onclick = "Click()" class = "addBtn">Add</span>
         </div>
         <ul id = "myUL"></ul>
     </body>

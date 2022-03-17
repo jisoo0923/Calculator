@@ -35,7 +35,7 @@ input{
     padding: 10px;
     width: 30%;
     background:green;
-    color: black;
+    color:beige;
     float: left;
     text-align: center;
     font-size: 16px;
@@ -77,20 +77,20 @@ ul li:nth-child(odd) {
 } */
 
 /* Darker background-color on hover */
-ul li:hover{
+ul li:hover {
     background:silver;
     color: aquamarine;
 }
 
 /* When clicked on, add a background color and strike out text */
-ul li.checked{
+ul li.checked {
     background: lightcoral;
     color: black;
     text-decoration: line-through;      /* 글자에 밑줄을 긋는다. */
 }
    
 /* Add a "checked" mark when cilcked on */
-ul li.checked::before{
+ul li.checked::before {
     content: '';
     position: absolute;
     border-color: black;    /* 테두리의 색상을 지정한다. */
