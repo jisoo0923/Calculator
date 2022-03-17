@@ -27,12 +27,12 @@ list.addEventListener('click', function(ev) {
     }
 }, false);
 
-// Create a new list item when clicking on the "Add" button
+// Click on the "Add" button
 function Click() {
     newElement();
 }
 
-// Create a new list item when pressing the "Enter key"
+// Press the "Enter key"
 function Enter() {
     if (window.event.keyCode == 13) {
         newElement();

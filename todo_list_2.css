@@ -93,11 +93,11 @@ ul li.checked {
 ul li.checked::before {
     content: '';
     position: absolute;
-    border-color: black;    /* 테두리의 색상을 지정한다. */
-    border-style: solid;        /* 테두리의 형태를 지정한다. */
-    border-width: 0 2px 2px 0;     /* 테두리의 두께를 한 번에 지정한다. */
-    top: 10px;          /* 문단의 위치값 */
-    left: 16px;         /* 문단의 위치값 */
+    border-color: black;          /* 테두리의 색상을 지정한다. */
+    border-style: solid;             /* 테두리의 형태를 지정한다. */
+    border-width: 0 2px 2px 0;        /* 테두리의 두께를 한 번에 지정한다. */
+    top: 10px;           /* 문단의 위치값 */
+    left: 16px;          /* 문단의 위치값 */
     transform: rotate(45deg);
     height: 15px;
     width: 7px;
