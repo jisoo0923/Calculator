@@ -86,7 +86,7 @@ ul li:hover {
 ul li.checked {
     background: lightcoral;
     color: black;
-    text-decoration: line-through;      /* 글자에 밑줄을 긋는다. */
+    text-decoration: line-through;      /* 글자에 취소선을 긋는다. */
 }
    
 /* Add a "checked" mark when cilcked on */
