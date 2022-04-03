@@ -1,0 +1,27 @@
+table {
+    color: white;
+    text-align: center;
+}
+td, th {
+    width: 50px;
+    height: 30px;
+    border:1px solid black;
+}
+
+#window {
+    height: 50px;
+    width: 500px;
+    background-color: black;
+}
+
+.grey {
+    background-color: darkgrey;
+}
+
+.orange {
+    background-color: lightsalmon;
+}
+
+.num {
+    background-color:dimgrey;
+}
