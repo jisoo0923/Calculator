@@ -1,27 +1,55 @@
 table {
-    color: white;
+    font-size: 20px;
+    color:white;
+    background-color: cadetblue;
     text-align: center;
 }
-td, th {
-    width: 50px;
-    height: 30px;
-    border:1px solid black;
-}
 
-#window {
-    height: 50px;
-    width: 500px;
+#statusWindow {
+    height: 100px;
     background-color: black;
+    text-align: right;
+    padding-right: 8px;
+    font: 30px 굴림 bold;
 }
 
-.grey {
-    background-color: darkgrey;
+td {
+    border:0 solid black;
 }
 
-.orange {
-    background-color: lightsalmon;
+input[type="button"]{
+    font-size: 40px;
+    color:white;
 }
 
-.num {
-    background-color:dimgrey;
+.btn1 {
+    width: 70px;
+    height: 70px;
+    background-color: dimgrey;
+}
+
+.btn2 {
+    width: 140px;
+    height: 70px;
+    background-color: dimgrey;
+}
+
+.btn3 {
+    width: 70px;
+    height: 70px;
+    color: white;
+    font-size: 40px;
+    background-color:darkorange;
+}
+
+#display, #result {
+    width: 280px;
+    height: 70px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 8px;
+    color: white;
+    background-color: black;
+    
 }
